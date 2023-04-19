@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: "Roboto",sans-serif;
+}
+.hero_section{
+background-image: url(coding.jpg);
+min-height: 100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.text_container{
+    color: hsl(0, 0%, 6%);
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.ig_text{
+font-size: 72px;
+font-weight: 400;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+    .pimg1{
+        background-image: url(img4.webp);
+        min-height: 100%;
+    }
+    .pimg2{
+        background-image: url(c++.webp);
+        min-height:400px;
+    }
+    .pimg3{
+        background-image: url(img4.webp);
+        min-height: 400px;
+    }
+    .pimg1,.pimg2,.pimg3{
+      
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .ptext{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        color: black;
+    }
+    .textBg{
+        background-color: #313534;
+        color: #fff;
+        padding: 20px;
+    }
+    .section{
+        padding: 50px 80px ;
+        text-align: center;
+    }
+    .section-light{
+        background-color: #f4f4f4;
+        color: black;
+        background-color: gray;
+    }
+    .section-dark{
+    background-color: #282e34;
+    color: #ddd;
+    }
+    footer{
+        text-align: center;
+       text-transform:uppercase ;
+       background-color: #000;
+       padding: 20px;
+       color: white;
+    }
+
+    .bottom_section{
+        display: flex;
+    }
+    .contact{
+        background-color: #515603;
+    }
+    .contact {
+        /* min-width: 300px; */
+        padding: 32px;
+        color: white;
+        width: 100%;
+    }
+    .contact p{
+    margin-bottom: 20px;
+    }
+    .contact h2{
+        font-size: 64px;
+        font-weight: 300;
+        }
+    .contact p{
+        margin-bottom: 20px;
+        }
+
+        .fa:hover {
+            opacity: 0.9;
+        }
+  
+        .fa-linkedin {
+            /* background: #007bb5; */
+            color: white;
+        }
+  
+        .fa-facebokok {
+            /* background: #cb2027; */
+            color: white;
+        }
+  
+        .fa-instagram {
+            /* background: #ff5700; */
+            color: white;
+        }
+        .fa-github{
+            color: #ddd;
+        }
+  
+        .fa {
+            padding: 20px;
+            font-size: 40px;
+            width: 60px;
+            text-decoration: none;
+            margin: 5px 80px;
+        }
+  
+        h1 {
+            color: green;
+        }
+
+        .container{
+            width: 100%;
+        }
