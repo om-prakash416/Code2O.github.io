@@ -125,7 +125,12 @@ font-weight: 400;
         }
   
         .fa-instagram {
-            /* background: #ff5700; */
+            background: #ff5700;
+            color: white;
+        }
+
+      .fa-twitter-square {
+            background: #ff5700;
             color: white;
         }
         .fa-github{
